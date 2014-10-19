@@ -1,0 +1,26 @@
+{
+    "name": "theorx/dto",
+    "type": "library",
+    "description": "Data transfer object (DTO) provider for php.",
+    "keywords": ["DTO", "Data transfer object", "provider"],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Lauri Orgla",
+            "email": "TheOrX@hotmail.com",
+            "homepage": "http://www.lauri.guru",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "DTO\\": "library/DTO/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
